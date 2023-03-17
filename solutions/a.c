@@ -38,7 +38,7 @@ void read(struct PLAYERS arr[], int num_players)
         printf("Enter score 2: ");
         scanf("%d",arr[i].score_2);
         printf("Enter score 3: ");
-        scanf("%d",&p[i].score_3);
+        scanf("%d",&arr[i].score_3);
     }    
 }
 
@@ -48,7 +48,7 @@ void display(struct PLAYERS arr[], int num_players)
     printf("\nDetails of %d players--\n",num_players);
     for ( i = 0; i < num_players; i++)
     {
-        printf("Name of PLAYER %d: %s\n",i+1,p[i].name);
+        printf("Name of PLAYER %d: %s\n",i+1,arr[i].name);
         printf("Score 1: %d\n",arr[i].score_1);
         printf("Score 2: %d\n",arr[i].score_2);
         printf("Score 3: %d\n",arr[i].score_3);
