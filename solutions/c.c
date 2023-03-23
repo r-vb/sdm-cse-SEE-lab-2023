@@ -1,3 +1,5 @@
+/* 3. */
+
 /* Remember to create a text file named student as in: student.txt
     Else it won't work!! */
 

@@ -1,3 +1,5 @@
+/* 1. */
+
 #include<stdio.h>
 
 struct PLAYERS
