@@ -1,4 +1,2 @@
-Rahul	50
-Kali	49
-Rakesh	48
-Vaibhav	47
+Your Entries will be shown here when
+you excute c.c file.
