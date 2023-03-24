@@ -3,19 +3,19 @@
 
 #include <stdio.h>
 #include <stdlib.h>
- 
+
 #define MAX 5
- 
+
 void insert_by_priority(int);
 void delete_by_priority(int);
 void create();
 void check(int);
 void display_pqueue();
- 
+
 int pri_que[MAX];
 int front, rear;
- 
-void main()
+
+int main()
 {
     int n, ch;
  
@@ -53,6 +53,7 @@ void main()
             printf("\nChoice is incorrect, Enter a correct choice");
         }
     }
+return 0;
 }
  
 /* Function to create an empty priority queue */
