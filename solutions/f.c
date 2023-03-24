@@ -1,4 +1,7 @@
 /* 6. */
+/* Write a C program to determine if an input string is of the form
+x C y
+where x is a string consisting of letters A and B and y is the reverse of x. */
 
 #include <stdio.h>
 
